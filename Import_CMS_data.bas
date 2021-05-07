@@ -31,7 +31,7 @@ Sub Macro_try()
     Columns("A:V").Select
     Selection.Copy
     Windows(mainfile).Activate
-    Sheets("物理库").Select
+    Sheets("物料库").Select
     Columns("B:W").Select
     ActiveSheet.Paste
     Application.CutCopyMode = False 'Èç¹ûÊý¾ÝÏÔÊ¾Òì³££¬¿ÉÄÜÊÇColumnBÃ»ÓÐÏÂÀ­¡£
